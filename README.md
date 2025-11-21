@@ -1,4 +1,4 @@
-# Jangan di push dulu 
+# Jangan di "compare & PR" 
 
 Undangan Digital - Elegant Wedding Invitation
 
