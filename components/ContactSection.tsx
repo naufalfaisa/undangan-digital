@@ -14,11 +14,11 @@ export default function ContactSection() {
                     <p className="text-gray-600 text-sm">@UndangKito</p>
                 </div>
                 </a>
-                <a href="https://wa.me/628123456789?text=Saya mau sprei gratis">
+                <a href="https://wa.me/+6282225476865?text=Saya mau sprei gratis">
                 <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:scale-105 transition-transform">
                     <i className="fa-brands fa-whatsapp text-4xl mb-4"></i>
                     <h3 className="font-semibold text-lg mb-2">WhatsApp</h3>
-                    <p className="text-gray-600 text-sm">+62 812 3456 7890</p>
+                    <p className="text-gray-600 text-sm">+6282225476865 nomor parel</p>
                 </div>
                 </a>
                 <a href="mailto:undangkito@gmail.com">
