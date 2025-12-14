@@ -26,7 +26,7 @@ const katalogData = [
         price: "Rp 100.000",
         image: "https://cdn.discordapp.com/attachments/1379755280371552358/1449799946000793641/Gemini_Generated_Ima..._imresizer.jpg?ex=694036eb&is=693ee56b&hm=df677f21375c31f442edafe257cb2f7533842689775d0713805b5d59adcf54f5&",
         alt: "desain 3",
-        link: "/pesan/minimalist-white",
+        link: "/katalog/minimalist-white",
     },
 ];
 
