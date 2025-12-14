@@ -41,7 +41,10 @@ export default function Navbar() {
     <nav className="bg-white border-b shadow-sm fixed top-0 left-0 right-0 z-50">
       <div className="container mx-auto md:px-12 px-4 py-4 flex items-center justify-between">
         {/* Brand */}
-        <a href="#home" className="text-xl md:text-2xl font-bold text-gray-800 font-playfair">UndangKito</a>
+        <div className="flex items-center gap-2">
+          <img className="" src="https://cdn.discordapp.com/attachments/1379755280371552358/1449781912221651185/image.png?ex=6940261f&is=693ed49f&hm=f750e2bc1bd59c42ab16d829157102d1eba94d86e2c0007825dbf20ec6c64d42&" alt="UndangKito Logo" width={40}/>
+          <a href="#home" className="text-xl md:text-2xl font-bold text-gray-800 font-playfair">UndangKito</a>
+        </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-medium">
