@@ -43,14 +43,19 @@ export default function Navbar() {
         {/* Brand */}
         <div className="flex items-center gap-2">
           <img className="" src="https://cdn.discordapp.com/attachments/1379755280371552358/1449781912221651185/image.png?ex=6940261f&is=693ed49f&hm=f750e2bc1bd59c42ab16d829157102d1eba94d86e2c0007825dbf20ec6c64d42&" alt="UndangKito Logo" width={40}/>
-          <a href="#home" className="text-xl md:text-2xl font-bold text-gray-800 font-playfair">UndangKito</a>
+          <div >
+            <a href="#home" className="text-xl md:text-2xl font-bold font-playfair flex items-center">
+              <span className="text-black">Undang</span>
+              <span className="text-pink-500">Kito</span>
+            </a>
+          </div>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-medium">
-          <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors">Home</a>
-          <a href="#katalog" className="text-gray-700 hover:text-gray-900 transition-colors">Katalog</a>
-          <a href="#kontak" className="text-gray-700 hover:text-gray-900 transition-colors">Kontak</a>
+          <a href="#home" className=" hover:text-black-900 transition-colors">Home</a>
+          <a href="#katalog" className=" hover:text-black-900 transition-colors">Katalog</a>
+          <a href="#kontak" className="hover:text-black-900 transition-colors">Kontak</a>
           <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="ml-4 flex items-center bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition-colors">
             <FaWhatsapp className="mr-2" /> Hubungi Kami
           </a>

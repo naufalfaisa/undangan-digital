@@ -8,7 +8,7 @@ export default function HowToOrderSection() {
             </div>
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
                 <div className="flex flex-col items-center text-center md:w-1/4">
-                    <div className="w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
+                    <div className="w-12 h-12 bg-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
                     <h3 className="font-semibold mb-2">Pilih Desain</h3>
                     <p className="text-gray-600 text-sm">Pilih desain yang sesuai dengan tema pernikahanmu</p>
                 </div>
@@ -18,7 +18,7 @@ export default function HowToOrderSection() {
                     </svg>
                 </div>
                 <div className="flex flex-col items-center text-center md:w-1/4">
-                    <div className="w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
+                    <div className="w-12 h-12 bg-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
                     <h3 className="font-semibold mb-2">Konfirmasi & Bayar</h3>
                     <p className="text-gray-600 text-sm">Konfirmasi pesanan dan lakukan pembayaran</p>
                 </div>
@@ -28,7 +28,7 @@ export default function HowToOrderSection() {
                     </svg>
                 </div>
                 <div className="flex flex-col items-center text-center md:w-1/4">
-                    <div className="w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
+                    <div className="w-12 h-12 bg-pink-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
                     <h3 className="font-semibold mb-2">Terima Hasil</h3>
                     <p className="text-gray-600 text-sm">Undangan digital siap dibagikan ke tamu undangan</p>
                 </div>

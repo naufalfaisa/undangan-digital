@@ -31,7 +31,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </head>
-      <body className={`min-h-screen bg-gray-50 text-gray-800 antialiased flex flex-col ${poppins.className} ${playfair.variable} font-poppins`}>
+      <body className={`min-h-screen bg-pink-50 text-gray-800 antialiased flex flex-col ${poppins.className} ${playfair.variable} font-poppins`}>
         <Navbar />
         {children}
         <Footer />
