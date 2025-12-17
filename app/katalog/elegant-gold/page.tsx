@@ -9,17 +9,16 @@ export default function ElegantGoldDetail() {
   const [selectedImage, setSelectedImage] = useState(0)
   
   const images = [
-    '/images/elegant-gold/1.png',
-    '/images/elegant-gold/2.png', 
-    '/images/elegant-gold/3.png',
-    '/images/elegant-gold/4.png',
+    '/images/elegant-gold/1.webp',
+    '/images/elegant-gold/2.webp', 
+    '/images/elegant-gold/3.webp',
+    '/images/elegant-gold/4.webp',
   ]
 
   const features = [
     'Desain elegan dengan aksen emas',
     'Animasi halus dan interaktif',
     'Galeri foto pre-wedding',
-    'RSVP online terintegrasi',
     'Peta lokasi acara',
     'Countdown timer',
     'Background music',
@@ -30,7 +29,7 @@ export default function ElegantGoldDetail() {
     <div className="min-h-screen">
       {/* Header dengan padding yang sama seperti main page */}
       <div className="container mx-auto px-4 py-4 mt-20">
-        <Link href="/" className="inline-flex items-center gap-2 text-gray-600 hover:text-pink-500 transition-colors mb-6">
+        <Link href="/" className="inline-flex items-center gap-2 text-gray-600 hover:text-pink-500 transition-colors mb-6 ml-8">
           <ArrowLeft size={20} />
           <span>Kembali ke Homepage</span>
         </Link>
@@ -199,7 +198,8 @@ export default function ElegantGoldDetail() {
               { name: 'Classic Navy', price: '135.000', oldPrice: '180.000' },
               { name: 'Garden Dream', price: '110.000', oldPrice: '140.000' }
             ].map((item, index) => (
-              <Link key={index} href={`/katalog/template-${index + 1}`}>
+              //<Link key={index} href={`/katalog/template-${index + 1}`}>
+              <Link key={index} href={`/katalog/blank`}>
                 <div className="bg-white shadow-md rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300">
                   <div className="relative aspect-[4/3]">
                     <img

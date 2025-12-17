@@ -6,7 +6,7 @@ const katalogData = [
         title: "Desain Elegant Gold",
         description: "Tema elegan dengan aksen emas yang anggun.",
         price: "Rp 350.000",
-        image: "/images/elegant-gold/thumbnail.png",
+        image: "/images/elegant-gold/thumbnail.webp",
         alt: "desain 1",
         link: "/katalog/elegant-gold", // internal page Next.js
     },
@@ -15,16 +15,17 @@ const katalogData = [
         title: "Desain Floral Pastel",
         description: "Warna pastel lembut dengan ilustrasi bunga.",
         price: "Rp 150.000",
-        image: "https://cdn.discordapp.com/attachments/1379755280371552358/1449800598202351816/Biru_Emas_dan_Merah_..._imresizer.jpg?ex=69403786&is=693ee606&hm=5ee19d1db594ae8c917b1c394f02a1c90325dcd907373730ee6cf2df9a475914&",
+        image: "https://placehold.jp/500x400.png",
         alt: "desain 2",
-        link: "https://wa.me/6281234567890?text=Saya+ingin+memesan+Desain+Floral+Pastel", // link eksternal (WhatsApp)
+        link: "/katalog/blank",
+        //link: "https://wa.me/6281234567890?text=Saya+ingin+memesan+Desain+Floral+Pastel", // link eksternal (WhatsApp)
     },
     {
         id: 3,
         title: "Desain Minimalist White",
         description: "Gaya minimalis elegan untuk tema modern.",
         price: "Rp 100.000",
-        image: "https://cdn.discordapp.com/attachments/1379755280371552358/1449799946000793641/Gemini_Generated_Ima..._imresizer.jpg?ex=694036eb&is=693ee56b&hm=df677f21375c31f442edafe257cb2f7533842689775d0713805b5d59adcf54f5&",
+        image: "https://placehold.jp/500x400.png",
         alt: "desain 3",
         link: "/katalog/minimalist-white",
     },
