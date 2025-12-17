@@ -7,6 +7,8 @@ import Image from 'next/image'
 
 export default function MinimalistWhiteDetail() {
   return (
-    <div>Hello World</div>
+    <div className="p-30">
+      <h1>Hello World</h1>
+    </div>
   )
 }

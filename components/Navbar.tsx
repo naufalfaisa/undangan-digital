@@ -53,9 +53,9 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-medium">
-          <a href="#home" className=" hover:text-black-900 transition-colors">Home</a>
-          <a href="#katalog" className=" hover:text-black-900 transition-colors">Katalog</a>
-          <a href="#kontak" className="hover:text-black-900 transition-colors">Kontak</a>
+          <a href="/#" className=" hover:text-black-900 transition-colors">Home</a>
+          <a href="/#katalog" className=" hover:text-black-900 transition-colors">Katalog</a>
+          <a href="/#kontak" className="hover:text-black-900 transition-colors">Kontak</a>
           <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="ml-4 flex items-center bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition-colors">
             <FaWhatsapp className="mr-2" /> Hubungi Kami
           </a>
