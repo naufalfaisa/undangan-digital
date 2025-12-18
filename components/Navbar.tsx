@@ -1,3 +1,4 @@
+// Navbar.tsx
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -42,7 +43,7 @@ export default function Navbar() {
       <div className="container mx-auto md:px-12 px-4 py-4 flex items-center justify-between">
         {/* Brand */}
         <div className="flex items-center gap-2">
-          <img className="" src="/logo.png" alt="UndangKito Logo" width={40}/>
+          <img className="" src="/logo.png" alt="UndangKito Logo" width={40} />
           <div >
             <a href="/" className="text-xl md:text-2xl font-bold font-playfair flex items-center">
               <span className="text-black">Undang</span>
