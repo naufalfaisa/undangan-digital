@@ -14,10 +14,9 @@ const katalogData = [
     id: 2,
     title: "Desain Floral Pastel",
     description: "Warna pastel lembut dengan ilustrasi bunga.",
-    image: "https://placehold.jp/500x400.png",
+    image: "/images/floral-pastel/thumbnail.webp",
     alt: "desain 2",
-    link: "/katalog/blank",
-    //link: "https://wa.me/6281234567890?text=Saya+ingin+memesan+Desain+Floral+Pastel", // link eksternal (WhatsApp)
+    link: "/katalog/floral-pastel",
   },
   {
     id: 3,

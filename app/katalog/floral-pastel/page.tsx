@@ -5,18 +5,18 @@ import { ArrowLeft, Heart, Share2, Eye, Calendar, MapPin, Clock, Star, Check } f
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function ElegantGoldDetail() {
+export default function FloralPastelDetail() {
   const [selectedImage, setSelectedImage] = useState(0)
   
   const images = [
-    '/images/elegant-gold/1.webp',
-    '/images/elegant-gold/2.webp', 
-    '/images/elegant-gold/3.webp',
-    '/images/elegant-gold/4.webp',
+    '/images/floral-pastel/1.webp',
+    '/images/floral-pastel/2.webp', 
+    '/images/floral-pastel/3.webp',
+    '/images/floral-pastel/4.webp',
   ]
 
   const features = [
-    'Desain elegan dengan aksen emas',
+    'Desain elegan dengan warna pastel',
     'Animasi halus dan interaktif',
     'Galeri foto pre-wedding',
     'Peta lokasi acara',
@@ -40,7 +40,7 @@ export default function ElegantGoldDetail() {
             <div className="relative aspect-[3.5/5] rounded-xl overflow-hidden shadow-md bg-white border-">
               <img
                 src={images[selectedImage]}
-                alt="Elegant Gold Invitation Preview"
+                alt="Floral Pastel Invitation Preview"
                 className="object-cover"
               />
               <div className="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
@@ -87,23 +87,23 @@ export default function ElegantGoldDetail() {
                     <Star key={i} size={14} className="fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <span className="text-sm text-gray-600">(250000 ulasan)</span>
+                <span className="text-sm text-gray-600">(999 ulasan)</span>
               </div>
               
               <h1 className="text-3xl font-bold text-gray-800 mb-3 font-playfair">
-                Elegant Gold
+                Floral Pastel
               </h1>
               
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl font-bold text-gray-800">Rp 150.000</span>
-                <span className="text-lg text-gray-500 line-through">Rp 200.000</span>
+                <span className="text-2xl font-bold text-gray-800">Rp 70.000</span>
+                <span className="text-lg text-gray-500 line-through">Rp 120.000</span>
                 <span className="bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   25% OFF
                 </span>
               </div>
               
               <p className="text-gray-600 leading-relaxed">
-                Undangan digital dengan tema elegan dan aksen emas yang mewah. 
+                Undangan digital dengan tema simpel dan warna pastel yang mewah. 
                 Desain yang sempurna untuk pernikahan dengan nuansa klasik dan modern.
               </p>
             </div>
@@ -132,7 +132,7 @@ export default function ElegantGoldDetail() {
               <div className="space-y-3 text-sm text-gray-600">
                 <div className="flex items-center gap-3">
                   <Calendar size={16} className="text-pink-500" />
-                  <span>Rabu, 09 November 2022</span>
+                  <span>Rabu, 09 November 2025</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock size={16} className="text-pink-500" />
@@ -140,7 +140,7 @@ export default function ElegantGoldDetail() {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin size={16} className="text-pink-500" />
-                  <span>Jl Gunung Koneng Tasikmalaya </span>
+                  <span>Jl Gunung Koneng Tasikmalaya</span>
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function ElegantGoldDetail() {
             {/* Action Buttons - Style seperti hero button */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href="https://contohundangan-1.vercel.app"
+                href="https://contohundangan2.vercel.app/"
                 className="flex-1 bg-pink-500 text-white px-6 py-3 rounded-full font-medium hover:bg-pink-600 transition-colors text-center flex items-center justify-center gap-2"
               >
                 <Eye size={18} />
@@ -194,12 +194,11 @@ export default function ElegantGoldDetail() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { name: 'Romantic Blush', price: '120.000', oldPrice: '150.000' },
-              { name: 'Classic Navy', price: '135.000', oldPrice: '180.000' },
-              { name: 'Garden Dream', price: '110.000', oldPrice: '140.000' }
+              { name: 'Elegant Gold', price: '120.000', oldPrice: '150.000', link: '/katalog/elegant-gold' },
+              { name: 'Floral Pastel', price: '70.000', oldPrice: '120.000', link: '/katalog/floral-pastel' },
+              { name: 'Minimalist White', price: '110.000', oldPrice: '140.000', link: '/katalog/minimalist-white' },
             ].map((item, index) => (
-              //<Link key={index} href={`/katalog/template-${index + 1}`}>
-              <Link key={index} href={`/katalog/blank`}>
+              <Link key={index} href={`${item.link}`} className="block">
                 <div className="bg-white shadow-md rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300">
                   <div className="relative aspect-[4/3]">
                     <img

@@ -25,14 +25,14 @@ export default function ContactSection() {
         </a>
 
         <a
-          href="https://wa.me/+6282225476865?text=Saya mau sprei gratis"
+          href="https://wa.me/+6285368342347?text=Saya mau sprei gratis"
           className="h-full"
         >
           <div className="bg-white rounded-xl shadow-md p-6 h-full flex flex-col items-center text-center transition-transform hover:scale-105">
             <i className="fa-brands fa-whatsapp text-4xl mb-4"></i>
             <h3 className="font-semibold text-lg mb-2">WhatsApp</h3>
             <p className="text-gray-600 text-sm mt-auto">
-              +6282225476865 nomor parel
+              +6285368342347
             </p>
           </div>
         </a>
