@@ -133,7 +133,7 @@ export default function ElegantGoldDetail() {
               <div className="space-y-3 text-sm text-gray-600">
                 <div className="flex items-center gap-3">
                   <Calendar size={16} className="text-pink-500" />
-                  <span>Sabtu, 25 Mei 2024</span>
+                  <span>Rabu, 09 November 2022</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock size={16} className="text-pink-500" />
@@ -141,7 +141,7 @@ export default function ElegantGoldDetail() {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin size={16} className="text-pink-500" />
-                  <span>Hotel Mulia, Jakarta Selatan</span>
+                  <span>Jl Gunung Koneng Tasikmalaya </span>
                 </div>
               </div>
             </div>
@@ -156,11 +156,12 @@ export default function ElegantGoldDetail() {
                 Lihat Demo
               </Link>
               <Link
-                href="/order?template=elegant-gold"
+                href="https://wa.me/+6282225476865?text=Saya mau sprei gratis"
                 className="flex-1 bg-white border-2 border-gray-800 text-gray-800 px-6 py-3 rounded-full font-medium hover:bg-pink-500 hover:text-white transition-colors text-center"
               >
                 Pesan Sekarang
               </Link>
+              
             </div>
 
             {/* Additional Info */}
