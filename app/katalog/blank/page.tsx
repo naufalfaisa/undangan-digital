@@ -5,7 +5,7 @@ import { ArrowLeft, Heart, Share2, Eye, Calendar, MapPin, Clock, Star, Check } f
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function MinimalistWhiteDetail() {
+export default function MinimalistBlueDetail() {
   return (
     <div className="p-30">
       <h1>Hello World!</h1>

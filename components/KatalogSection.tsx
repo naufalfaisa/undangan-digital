@@ -20,11 +20,11 @@ const katalogData = [
   },
   {
     id: 3,
-    title: "Desain Minimalist White",
+    title: "Desain Minimalist Blue",
     description: "Gaya minimalis elegan untuk tema modern.",
-    image: "https://placehold.jp/500x400.png",
+    image: "/images/minimalist-blue/thumbnail.webp",
     alt: "desain 3",
-    link: "/katalog/minimalist-white",
+    link: "/katalog/minimalist-blue",
   },
 ];
 

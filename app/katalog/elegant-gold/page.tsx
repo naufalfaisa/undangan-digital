@@ -194,18 +194,17 @@ export default function ElegantGoldDetail() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { name: 'Romantic Blush', price: '120.000', oldPrice: '150.000' },
-              { name: 'Classic Navy', price: '135.000', oldPrice: '180.000' },
-              { name: 'Garden Dream', price: '110.000', oldPrice: '140.000' }
+              { name: 'Elegant Gold', price: '120.000', oldPrice: '150.000', link: '/katalog/elegant-gold', thumbnail: '/images/elegant-gold/thumbnail.webp' },
+              { name: 'Floral Pastel', price: '70.000', oldPrice: '120.000', link: '/katalog/floral-pastel', thumbnail: '/images/floral-pastel/thumbnail.webp' },
+              { name: 'Minimalist Blue', price: '110.000', oldPrice: '140.000', link: '/katalog/minimalist-blue', thumbnail: '/images/minimalist-blue/thumbnail.webp' },
             ].map((item, index) => (
-              //<Link key={index} href={`/katalog/template-${index + 1}`}>
-              <Link key={index} href={`/katalog/blank`}>
+              <Link key={index} href={`${item.link}`} className="block">
                 <div className="bg-white shadow-md rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300">
                   <div className="relative aspect-[4/3]">
                     <img
-                      src="https://placehold.jp/400x300.png"
+                      src={item.thumbnail}
                       alt={item.name}
-                      className="object-cover"
+                      className="object-cover w-full h-full"
                     />
                   </div>
                   <div className="p-4">

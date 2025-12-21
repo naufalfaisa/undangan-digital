@@ -6,18 +6,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { th } from 'framer-motion/client'
 
-export default function FloralPastelDetail() {
+export default function MinimalistBlueeDetail() {
   const [selectedImage, setSelectedImage] = useState(0)
   
   const images = [
-    '/images/floral-pastel/1.webp',
-    '/images/floral-pastel/2.webp', 
-    '/images/floral-pastel/3.webp',
-    '/images/floral-pastel/4.webp',
+    '/images/minimalist-blue/1.webp',
+    '/images/minimalist-blue/2.webp', 
+    '/images/minimalist-blue/3.webp',
+    '/images/minimalist-blue/4.webp',
   ]
 
   const features = [
-    'Desain elegan dengan warna pastel',
+    'Desain elegan dan minimalis',
     'Animasi halus dan interaktif',
     'Galeri foto pre-wedding',
     'Peta lokasi acara',
@@ -41,7 +41,7 @@ export default function FloralPastelDetail() {
             <div className="relative aspect-[3.5/5] rounded-xl overflow-hidden shadow-md bg-white border-">
               <img
                 src={images[selectedImage]}
-                alt="Floral Pastel Invitation Preview"
+                alt="Minimalist Blue Preview"
                 className="object-cover"
               />
               <div className="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
@@ -92,11 +92,11 @@ export default function FloralPastelDetail() {
               </div>
               
               <h1 className="text-3xl font-bold text-gray-800 mb-3 font-playfair">
-                Floral Pastel
+                Minimalist Blue
               </h1>
               
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl font-bold text-gray-800">Rp 70.000</span>
+                <span className="text-2xl font-bold text-gray-800">Rp 90.000</span>
                 <span className="text-lg text-gray-500 line-through">Rp 120.000</span>
                 <span className="bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   25% OFF
@@ -104,8 +104,8 @@ export default function FloralPastelDetail() {
               </div>
               
               <p className="text-gray-600 leading-relaxed">
-                Undangan digital dengan tema simpel dan warna pastel yang mewah. 
-                Desain yang sempurna untuk pernikahan dengan nuansa klasik dan modern.
+                Undangan digital dengan desain elegan dan minimalis. 
+                Desain yang sempurna untuk acara spesial dan minimalis.
               </p>
             </div>
 
@@ -141,7 +141,7 @@ export default function FloralPastelDetail() {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin size={16} className="text-pink-500" />
-                  <span>Jl SKRD Syahbuddin</span>
+                  <span>Jl Sultan Thaha Jambi </span>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function FloralPastelDetail() {
             {/* Action Buttons - Style seperti hero button */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href="https://contohundangan2.vercel.app/"
+                href="https://contoh-undangan3.vercel.app/"
                 className="flex-1 bg-pink-500 text-white px-6 py-3 rounded-full font-medium hover:bg-pink-600 transition-colors text-center flex items-center justify-center gap-2"
               >
                 <Eye size={18} />
