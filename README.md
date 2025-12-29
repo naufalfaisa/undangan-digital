@@ -1,42 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UndangKito - Undangan Pernikahan Digital
 
-## Getting Started
+![alt text](/public/images/readme.png)
 
-Install dependencies first:
+Sebuah website undangan digital pernikahan yang elegan dan modern, dibangun dengan Next.js dan Tailwind CSS.
 
+## Fitur
+
+- **Desain Responsif** - Tampilan optimal di semua perangkat (desktop, tablet, mobile)
+- **Multiple Templates** - Berbagai pilihan desain undangan:
+  - Elegant Gold
+  - Floral Pastel
+  - Minimalist Blue
+- **Detail Template** - Setiap template memiliki halaman detail dengan:
+  - Galeri gambar interaktif
+  - Preview informasi acara
+  - Fitur unggulan
+  - Demo undangan
+  - Template serupa
+- **Navigasi Smooth** - Smooth scrolling antar section
+- **Mobile Menu** - Hamburger menu untuk tampilan mobile
+- **Integrasi WhatsApp** - Tombol kontak langsung ke WhatsApp
+- **Section Lengkap**:
+  - Hero Section
+  - Katalog Desain
+  - Keunggulan (Why Choose Us)
+  - Cara Pemesanan
+  - Kontak
+
+## Teknologi
+
+- **Framework**: [Next.js 16](https://nextjs.org/)
+- **Bahasa**: TypeScript
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons**: 
+  - [Lucide React](https://lucide.dev/)
+  - [React Icons](https://react-icons.github.io/react-icons/)
+  - [Font Awesome](https://fontawesome.com/)
+- **Fonts**: 
+  - Poppins (Sans-serif)
+  - Playfair Display (Serif)
+
+## Instalasi
+
+### Prasyarat
+
+- Node.js 20.x atau lebih tinggi
+- npm, yarn, pnpm, atau bun
+
+### Langkah Instalasi
+
+1. Clone repository ini:
 ```bash
-npm install
+git clone <repository-url>
+cd undangan-digital
 ```
 
-Then run the development server:
+2. Install dependencies:
+```bash
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+# atau
+bun install
+```
 
+3. Jalankan development server:
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
+# atau
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Buka browser dan akses [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Struktur Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+undangan-digital/
+├── app/
+│   ├── katalog/
+│   │   ├── elegant-gold/
+│   │   │   └── page.tsx
+│   │   ├── floral-pastel/
+│   │   │   └── page.tsx
+│   │   ├── minimalist-blue/
+│   │   │   └── page.tsx
+│   │   └── blank/
+│   │       └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ContactSection.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── HowToOrderSection.tsx
+│   ├── KatalogSection.tsx
+│   ├── Navbar.tsx
+│   └── WhyChooseUsSection.tsx
+├── public/
+│   ├── images/
+│   │   ├── elegant-gold/
+│   │   ├── floral-pastel/
+│   │   └── minimalist-blue/
+│   ├── logo.png
+│   └── logo.svg
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Menjalankan development server
+- `npm run build` - Build project untuk production
+- `npm run start` - Menjalankan production server
+- `npm run lint` - Menjalankan ESLint untuk code linting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Kustomisasi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Menambah Template Baru
 
-## Deploy on Vercel
+1. Buat folder baru di `app/katalog/[nama-template]/`
+2. Buat file `page.tsx` dengan struktur yang sama seperti template lainnya
+3. Tambahkan gambar template di `public/images/[nama-template]/`
+4. Update `katalogData` di `components/KatalogSection.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Mengubah Warna Tema
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Edit file `app/globals.css` dan ubah variable CSS atau konfigurasi Tailwind.
+
+### Mengubah Font
+
+Edit `app/layout.tsx` dan ganti font dari `next/font/google`.
+
+## Link Penting
+
+- **Demo**: [UndangKito](https://undangkito.web.id)
+- **Email**: undangkito@gmail.com
+- **Instagram**: [@UndangKito](https://instagram.com/undangkito)
+
+## Deployment
+
+### Deploy ke Vercel
+
+Cara termudah untuk deploy aplikasi Next.js adalah menggunakan [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+1. Push code ke GitHub repository
+2. Import project di [Vercel](https://vercel.com)
+3. Vercel akan otomatis mendeteksi Next.js dan deploy
+
+Lihat [dokumentasi deployment Next.js](https://nextjs.org/docs/app/building-your-application/deploying) untuk detail lebih lanjut.
+
+## Resource
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
+
+## License
+
+Copyright © 2025 UndangKito. All rights reserved.
+
+## Kontribusi
+
+Kontribusi, issues, dan feature requests sangat diterima!
+
+---
+
+Dibuat dengan cinta untuk momen spesial Anda
